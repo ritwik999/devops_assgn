@@ -23,13 +23,13 @@ public class Check
 				flag=1;
 			}
 		}
-		if(flag==1)
+		if(flag==0)
 		{
-			System.out.println(n+" is prime number");
+			System.out.println(n+" is not prime number");
 		}
 		else
 		{
-			System.out.println(n+" is not prime number");
+			System.out.println(n+" is prime number");
 		}
 	}
 }
